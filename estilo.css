@@ -473,3 +473,48 @@ footer a{
     
 
 }
+li.barra1{
+    
+    transition: all 2s ease;
+    }
+
+li.barra1:hover{
+background-color: rgb(255, 255, 255);
+
+}
+li.barra2{
+    
+    transition: all 2s ease;
+    }
+
+li.barra2:hover{
+background-color: rgb(255, 255, 255);
+
+}
+li.barra3{
+    
+    transition: all 2s ease;
+    }
+
+li.barra3:hover{
+background-color: rgb(255, 255, 255);
+
+}
+li.barra4{
+    
+    transition: all 2s ease;
+    }
+
+li.barra4:hover{
+background-color: rgb(255, 255, 255);
+
+}
+li.barra5{
+    
+    transition: all 2s ease;
+    }
+
+li.barra5:hover{
+background-color: rgb(255, 255, 255);
+
+}
