@@ -8,39 +8,36 @@ body{
     background-color: rgba(245, 245, 245, 0.123);
     background-image: url(./fondo.jpg);
 }
-h1.asd{
-    font-family: 'Press Start 2P', cursive;
-    text-align: start;
 
-}
 h1{
-    text-align: center;
+    
     font-family: 'Press Start 2P', cursive;
+    
 
 } 
 
+
 header{
     color:rgba(185, 147, 255, 0.534);
-
+    text-align: center;
+    margin-top: 10px;
 }
 p{
-    font-family: 'Press Start 2P', cursive;    
-    font-size: 1rem;
-    color: white;
-    text-align: start;
-    line-height: 1.3;
-    padding: 10px;
-    margin: 20px;    
+    font-family: 'Press Start 2P', cursive;   
+    color:white;
+    
+        
 }
 img.juego{
-    margin-left: 8px;
-    margin-bottom: 15px;
-    width: 50%;
+    
+    width: 100%;
     border-radius: 8px;
+    
 }
+
 fieldset{
     width: 20%;
-    margin-left:40%;
+    margin: 0 auto;
 }
 
 
@@ -64,11 +61,11 @@ nav ul a{
 
 fieldset{
     color:rgba(185, 147, 255, 0.534);
-    text-align: center;
+    text-align: left;
 }  
 
 img.whatsapp{
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 5px;
 }
 h2{
@@ -82,397 +79,15 @@ h3{
 }
 footer{
     background-color: black;
-    border-radius: 8px;
 }
 footer a{
     color:white;
+    font-family: 'Press Start 2P', cursive;
     
-    margin-bottom: 10px;
+    margin-left: 10px;
     
 }
 
-
-.padre{
-    
-	padding: 20px;
-	margin: 20px auto;
-	width: 90%;
-	display: grid;
-	gap: 1rem;
-	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows:repeat(4, auto);
-	grid-template-areas: 
-    "header header header"
-	"navegacion navegacion navegacion"
-    "contenido contenido aside"
-	"footer footer footer";
-}
-
-
-.header{
-	grid-area: header;
-}
-.footer {
-	height: 50px;
-	grid-area: footer;
-}
-.navegacion {
-	padding: 20px;
-	border-radius: 4px;
-	line-height: 1.5;
-	grid-area: navegacion;}
-.contenido{
-    padding: 20px;
-    border-radius: 4px;
-    text-align: center;
-    grid-area: contenido;
-}
-.aside{
-    margin: 20px auto;
-    grid-area: aside;
-}
-
-.padre2{
-    
-	padding: 20px;
-	margin: 20px auto;
-	width: 90%;
-	display: grid;
-	gap: 1rem;
-	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows:repeat(4, auto);
-	grid-template-areas: 
-    "header header header"
-	"navegacion navegacion navegacion"
-    "juegos juego parrafo"
-	"footer footer footer";
-}
-
-
-.header{
-	grid-area: header;
-}
-.footer{
-	height: 50px;
-	grid-area: footer;
-}
-.navegacion {
-	padding: 20px;
-	border-radius: 4px;
-	line-height: 1.5;
-	grid-area: navegacion;}
-.juegos {
-    margin-left: 8px;
-    margin-bottom: 15px;
-    width: 350%;
-    border-radius: 8px;
-    grid-area: juegos;
-}
-
-.padre3{
-    
-	padding: 20px;
-	margin: 20px auto;
-	width: 90%;
-	display: grid;
-	gap: 1rem;
-	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows:repeat(5, auto);
-	grid-template-areas: 
-    "header header header"
-	"navegacion navegacion navegacion"
-    "telefono telefono telefono"
-    "contacto contacto contacto"
-	"footer footer footer";
-}
-
-
-.header{
-	grid-area: header;
-}
-.footer{
-	height: 50px;
-	grid-area: footer;
-}
-.navegacion {
-	padding: 20px;
-	border-radius: 4px;
-	line-height: 1.5;
-	grid-area: navegacion;}
-.telefono {
-    margin-left: 8px;
-    margin-bottom: 15px;
-    width: 90%;
-    border-radius: 8px;
-    grid-area: telefono;
-}
-.contacto{
-    grid-area: contacto;
-}
-.padre4{
-    
-	padding: 20px;
-	margin: 20px auto;
-	width: 90%;
-	display: grid;
-	gap: 1rem;
-	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows:repeat(4, auto);
-	grid-template-areas: 
-    "header header header"
-	"navegacion navegacion navegacion"
-    "merchandise merchandise merchandise"
-	"footer footer footer";
-}
-
-
-.header{
-	grid-area: header;
-}
-.footer{
-	height: 50px;
-	grid-area: footer;
-}
-.navegacion {
-	padding: 20px;
-	border-radius: 4px;
-	line-height: 1.5;
-	grid-area: navegacion;}
-.merchandise {
-    margin-left: 8px;
-    margin-bottom: 15px;
-    width: 90%;
-    border-radius: 8px;
-    grid-area: merchandise;
-}
-
-
-.padre5{
-    
-	padding: 20px;
-	margin: 20px auto;
-	width: 90%;
-	display: grid;
-	gap: 1rem;
-	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows:repeat(4, auto);
-	grid-template-areas: 
-    "header header header"
-	"navegacion navegacion navegacion"
-    "equipo equipo equipo"
-    
-	"footer footer footer";
-}
-
-
-.header{
-	grid-area: header;
-}
-.footer{
-	height: 50px;
-	grid-area: footer;
-}
-.navegacion {
-	padding: 20px;
-	border-radius: 4px;
-	line-height: 1.5;
-	grid-area: navegacion;}
-.equipo {
-    margin-left: 8px;
-    margin-bottom: 15px;
-    width: 90%;
-    border-radius: 8px;
-    grid-area: equipo;
-}
-
-
-
-@media screen and (max-width:768px){
-    .padre{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas: 
-        "header header header"
-        "navegacion navegacion navegacion"
-        "contenido contenido contenido"
-        "aside aside aside"
-        "footer footer footer";
-    }
-   nav ul{
-       display: block;
-       
-   }
-}
-
-
-@media screen and (max-width:768px){
-    .padre2{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: 
-        "header header header"
-        "navegacion navegacion navegacion"
-        "juegos juegos juegos"
-        "footer footer footer";
-    }
-    .juegos{
-        width: 100% ;
-        
-    }
-    nav ul{
-        display: block;
-        
-    }
-
-}
-@media screen and (max-width:768px){
-    .padre3{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30px 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header"
-        "navegacion"
-        "telefono"
-        "contacto"
-        "footer";
-    }
-    nav ul{
-        display: block;
-        
-    }
-    
-
-}
-
-@media screen and (max-width:768px){
-    .padre4{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30px 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header"
-        "navegacion"
-        "merchandise"
-        "footer";
-    }
-    nav ul{
-        display: block;
-        
-    }
-    
-
-}
-
-@media screen and (max-width:768px){
-    .padre5{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30px 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header"
-        "navegacion"
-        "equipo"
-        "footer";
-    }
-    nav ul{
-        display: block;
-        
-    }
-    
-
-}
-
-@media screen and (max-width:500px){
-    .padre{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas: 
-        "header header header"
-        "navegacion navegacion navegacion"
-        "contenido contenido contenido"
-        "aside aside aside"
-        "footer footer footer";
-    }
-   nav ul{
-       display: block;
-       background-color: rgb(28, 10, 58);
-       
-   }
-}
-
-
-@media screen and (max-width:500px){
-    .padre2{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: 
-        "header header header"
-        "navegacion navegacion navegacion"
-        "juegos juegos juegos"
-        "footer footer footer";
-    }
-    .juegos{
-        width: 100% ;
-        
-    }
-    nav ul{
-        display: block;
-        
-    }
-
-}
-@media screen and (max-width:500px){
-    .padre3{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30px 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header"
-        "navegacion"
-        "telefono"
-        "contacto"
-        "footer";
-    }
-    nav ul{
-        display: block;
-        
-    }
-    
-
-}
-
-@media screen and (max-width:500px){
-    .padre4{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30px 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header"
-        "navegacion"
-        "merchandise"
-        "footer";
-    }
-    nav ul{
-        display: block;
-        
-    }
-    
-
-}
-
-@media screen and (max-width:500px){
-    .padre5{
-        grid-template-columns: 1fr;
-        grid-template-rows: 30px 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "header"
-        "navegacion"
-        "equipo"
-        "footer";
-    }
-    nav ul{
-        display: block;
-        
-    }
-    
-
-}
 li.barra1{
     
     transition: all 2s ease;
@@ -517,4 +132,6 @@ li.barra5{
 li.barra5:hover{
 background-color: rgb(255, 255, 255);
 
+}
+main.container{
 }
