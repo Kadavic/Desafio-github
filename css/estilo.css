@@ -1,3 +1,25 @@
+nav ul {
+  list-style: none;
+  background-color: #010103;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px; }
+
+nav ul a {
+  font-family: 'Press Start 2P', cursive;
+  color: #b993ff88;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: block; }
+
+footer {
+  background-color: black; }
+
+footer a {
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  margin-left: 10px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -11,13 +33,16 @@ h1 {
   font-family: 'Press Start 2P', cursive; }
 
 header {
-  color: rgba(185, 147, 255, 0.534);
+  color: #b993ff88;
   text-align: center;
   margin-top: 10px; }
 
 p {
   font-family: 'Press Start 2P', cursive;
-  color: white; }
+  color: white;
+  transition: all 2s ease; }
+  p:hover {
+    background-color: black; }
 
 img.juego {
   width: 100%;
@@ -27,22 +52,8 @@ fieldset {
   width: 20%;
   margin: 0 auto; }
 
-nav ul {
-  list-style: none;
-  background-color: #010103;
-  display: flex;
-  justify-content: center;
-  border-radius: 8px; }
-
-nav ul a {
-  font-family: 'Press Start 2P', cursive;
-  color: rgba(185, 147, 255, 0.534);
-  text-decoration: none;
-  padding: 0.7rem;
-  display: block; }
-
 fieldset {
-  color: rgba(185, 147, 255, 0.534);
+  color: #b993ff88;
   text-align: left; }
 
 img.whatsapp {
@@ -53,14 +64,6 @@ h2 {
   font-family: Arial, Helvetica, sans-serif; }
 
 h3 {
-  color: white;
-  font-family: 'Press Start 2P', cursive;
-  margin-left: 10px; }
-
-footer {
-  background-color: black; }
-
-footer a {
   color: white;
   font-family: 'Press Start 2P', cursive;
   margin-left: 10px; }
