@@ -27,7 +27,7 @@ footer a {
 
 body {
   background-color: rgba(245, 245, 245, 0.123);
-  background-image: url("../Img/fondo.jpg"); }
+  background-image: url(../Img/fondo.jpg); }
 
 h1 {
   font-family: 'Press Start 2P', cursive; }
