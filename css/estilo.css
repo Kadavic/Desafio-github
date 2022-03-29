@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 nav ul {
   list-style: none;
   background-color: #010103;
@@ -24,11 +29,6 @@ footer a {
   color: white;
   font-family: 'Press Start 2P', cursive;
   margin-left: 10px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
 
 body {
   background-color: rgba(245, 245, 245, 0.123);
