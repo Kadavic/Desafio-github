@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 nav ul {
   list-style: none;
   background-color: #010103;
@@ -13,21 +18,24 @@ nav ul a {
   display: block; }
 
 footer {
-  background-color: black; }
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 footer a {
   color: white;
   font-family: 'Press Start 2P', cursive;
   margin-left: 10px; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 body {
   background-color: rgba(245, 245, 245, 0.123);
-  background-image: url(../Img/fondo.jpg); }
+  background-image: url("../Img/fondo.jpg");
+  position: relative;
+  padding-bottom: 58px;
+  min-height: 100vh; }
 
 h1 {
   font-family: 'Press Start 2P', cursive; }
