@@ -40,6 +40,10 @@ body {
 h1 {
   font-family: 'Press Start 2P', cursive; }
 
+h1.email {
+  font-family: 'Press Start 2P', cursive;
+  font-size: medium; }
+
 header {
   color: #b993ff88;
   text-align: center;
@@ -131,9 +135,6 @@ div.fg {
   nav ul {
     display: block;
     background-color: #1c0a3a; }
-  fieldset {
-    width: 40%;
-    margin: 0 auto; }
   img.whatsapp {
     margin: 0 auto;
     margin-left: 30%; }
@@ -145,9 +146,6 @@ div.fg {
   nav ul {
     display: block;
     background-color: #1c0a3a; }
-  fieldset {
-    width: 80%;
-    margin: 0 auto; }
   img.whatsapp {
     margin: 0 auto;
     margin-left: 10%; } }
