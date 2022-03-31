@@ -1,3 +1,13 @@
+$footer:(
+    facebook:rgb(0, 0, 223),
+    instagram:pink,
+    twitter:rgba(18, 92, 252, 0.836),
+    
+);
+$facebook: map-get($footer, facebook);
+$instagram: map-get($footer, instagram);
+$twitter: map-get($footer, twitter);
+
 footer{
     background-color: black;
     text-align: center;
@@ -7,9 +17,18 @@ footer{
     width: 100%;
 }
 footer a{
-    color:white;
+    color: white;
     font-family: 'Press Start 2P', cursive;
     
     margin-left: 10px;
     
+}
+footer a.facebook{
+    color: $facebook;
+}
+footer a.instagram{
+    color: $instagram;
+}
+footer a.twitter{
+    color: $twitter;
 }
