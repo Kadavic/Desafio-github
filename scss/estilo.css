@@ -1,21 +1,29 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 nav ul {
   list-style: none;
   background-color: #010103;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  border-radius: 8px; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+}
 
 nav ul a {
   font-family: 'Press Start 2P', cursive;
   color: #b993ff88;
   text-decoration: none;
   padding: 0.7rem;
-  display: block; }
+  display: block;
+}
 
 footer {
   background-color: black;
@@ -23,167 +31,225 @@ footer {
   padding: 20px;
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 footer a {
   color: white;
   font-family: 'Press Start 2P', cursive;
-  margin-left: 10px; }
+  margin-left: 10px;
+}
 
 footer a.facebook {
-  color: #0000df; }
+  color: #0000df;
+}
 
 footer a.instagram {
-  color: pink; }
+  color: pink;
+}
 
 footer a.twitter {
-  color: rgba(18, 92, 252, 0.836); }
+  color: rgba(18, 92, 252, 0.836);
+}
 
 body {
   background-color: rgba(245, 245, 245, 0.123);
   background-image: url("../Img/fondo.jpg");
   position: relative;
   padding-bottom: 58px;
-  min-height: 100vh; }
+  min-height: 100vh;
+}
 
 h1 {
-  font-family: 'Press Start 2P', cursive; }
+  font-family: 'Press Start 2P', cursive;
+}
 
 h1.email {
   font-family: 'Press Start 2P', cursive;
-  font-size: medium; }
+  font-size: medium;
+}
 
 header {
   color: #b993ff88;
   text-align: center;
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
 strong {
   font-family: 'Press Start 2P', cursive;
   color: white;
-  margin-left: 20px; }
+  margin-left: 20px;
+}
 
 p, p.nombre, p.titulo {
   font-family: 'Press Start 2P', cursive;
   color: white;
-  transition: all 2s ease; }
-  p:hover {
-    background-color: black; }
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
+
+p:hover {
+  background-color: black;
+}
 
 p.parrafo1 {
   background-color: #1d1b1b;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem; }
-  p.parrafo1 p {
-    color: #fffbfb; }
+  margin: 1rem;
+}
+
+p.parrafo1 p {
+  color: #fffbfb;
+}
 
 p.parrafo2 {
   background-color: #443e3e;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem; }
-  p.parrafo2 p {
-    color: #fffbfb; }
+  margin: 1rem;
+}
+
+p.parrafo2 p {
+  color: #fffbfb;
+}
 
 p.parrafo3 {
   background-color: #7a7878;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem; }
-  p.parrafo3 p {
-    color: #fffbfb; }
+  margin: 1rem;
+}
+
+p.parrafo3 p {
+  color: #fffbfb;
+}
 
 p.nombre {
   font-weight: 700;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 p.titulo {
   font-size: 13px;
   color: #959595;
   margin-top: 0%;
-  padding-bottom: 10%; }
+  padding-bottom: 10%;
+}
 
 img.juego {
   width: 100%;
-  border-radius: 8px; }
+  border-radius: 8px;
+}
 
 fieldset {
   width: 20%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 fieldset {
   color: #b993ff88;
-  text-align: left; }
+  text-align: left;
+}
 
 img.whatsapp {
   margin-left: 40%;
-  margin-top: 5px; }
+  margin-top: 5px;
+}
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 h3 {
   color: white;
   font-family: 'Press Start 2P', cursive;
-  margin-left: 10px; }
+  margin-left: 10px;
+}
 
 li.barra1 {
-  transition: all 2s ease; }
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
 
 li.barra1:hover {
-  background-color: white; }
+  background-color: white;
+}
 
 li.barra2 {
-  transition: all 2s ease; }
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
 
 li.barra2:hover {
-  background-color: white; }
+  background-color: white;
+}
 
 li.barra3 {
-  transition: all 2s ease; }
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
 
 li.barra3:hover {
-  background-color: white; }
+  background-color: white;
+}
 
 li.barra4 {
-  transition: all 2s ease; }
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
 
 li.barra4:hover {
-  background-color: white; }
+  background-color: white;
+}
 
 li.barra5 {
-  transition: all 2s ease; }
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+}
 
 li.barra5:hover {
-  background-color: white; }
+  background-color: white;
+}
 
 img.team {
-  margin-left: 40%; }
+  margin-left: 40%;
+}
 
 div.fg {
   line-height: 20px;
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 @media screen and (max-width: 992px) {
   img.team {
-    margin-left: 0%; } }
+    margin-left: 0%;
+  }
+}
 
 @media screen and (max-width: 768px) {
   nav ul {
     display: block;
-    background-color: #1c0a3a; }
+    background-color: #1c0a3a;
+  }
   img.whatsapp {
     margin: 0 auto;
-    margin-left: 30%; }
+    margin-left: 30%;
+  }
   img.team {
     width: 50%;
-    margin-left: 0%; } }
+    margin-left: 0%;
+  }
+}
 
 @media screen and (max-width: 500px) {
   nav ul {
     display: block;
-    background-color: #1c0a3a; }
+    background-color: #1c0a3a;
+  }
   img.whatsapp {
     margin: 0 auto;
-    margin-left: 10%; } }
+    margin-left: 10%;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
