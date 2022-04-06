@@ -47,7 +47,7 @@ p, p.nombre, p.titulo {
     background-color: black; }
 
 p.parrafo1 {
-  background-color: #1d1b1b;
+  background-color: #202020;
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem; }
@@ -55,7 +55,7 @@ p.parrafo1 {
     color: #fffbfb; }
 
 p.parrafo2 {
-  background-color: #443e3e;
+  background-color: #474747;
   border-radius: 5px;
   padding: 1rem;
   margin: 1rem; }
@@ -93,6 +93,15 @@ h1 {
 h1.email {
   font-family: 'Press Start 2P', cursive;
   font-size: medium; }
+
+img.indeximg {
+  padding-bottom: 10px;
+  margin-top: 20%; }
+
+img.indeximg2 {
+  padding-bottom: 10px;
+  margin-top: 20%;
+  margin-left: 20%; }
 
 header {
   color: #b993ff88;
@@ -169,6 +178,14 @@ div.fg {
   img.team {
     margin-left: 0%; } }
 
+a.btn-success {
+  margin-left: 34%; }
+
+img.indeximg2 {
+  padding-bottom: 10px;
+  margin-top: 0%;
+  margin-left: 0%; }
+
 @media screen and (max-width: 768px) {
   nav ul {
     display: block;
@@ -178,6 +195,11 @@ div.fg {
     margin-left: 30%; }
   img.team {
     width: 50%;
+    margin-left: 0%; }
+  a.btn-success {
+    margin-left: 34%; }
+  img.indeximg2 {
+    margin-top: 0%;
     margin-left: 0%; } }
 
 @media screen and (max-width: 500px) {
@@ -186,4 +208,11 @@ div.fg {
     background-color: #1c0a3a; }
   img.whatsapp {
     margin: 0 auto;
-    margin-left: 10%; } }
+    margin-left: 10%; }
+  img.indeximg {
+    padding-bottom: 10px;
+    margin-top: 0%;
+    margin-left: 20%; }
+  img.indeximg2 {
+    margin-top: 0%;
+    margin-left: 20%; } }
