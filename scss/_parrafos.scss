@@ -10,12 +10,15 @@ p{
 }
 p.parrafo1{
     @include parrafo ($bgp1); 
+    text-align: center;
  }
  p.parrafo2{
      @include parrafo ($bgp2);
+     text-align: center;
  }
  p.parrafo3{
      @include parrafo ($bgp3);
+     text-align: center;
  }
 p.nombre{
     @extend p;
