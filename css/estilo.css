@@ -209,7 +209,9 @@ a.btn-success {
   p.titulo {
     margin-left: 35%; }
   p.Nombre {
-    margin-left: 35%; } }
+    margin-left: 35%; }
+  img.error {
+    width: 100%; } }
 
 @media screen and (max-width: 768px) {
   nav ul {
@@ -232,7 +234,9 @@ a.btn-success {
   p.titulo {
     margin-left: 25%; }
   p.Nombre {
-    margin-left: 25%; } }
+    margin-left: 25%; }
+  img.error {
+    width: 100%; } }
 
 @media screen and (max-width: 500px) {
   nav ul {
@@ -258,4 +262,6 @@ a.btn-success {
   p.Nombre {
     margin-left: 25%; }
   img.whatsapp {
-    margin-left: 25%; } }
+    margin-left: 25%; }
+  img.error {
+    width: 100%; } }
